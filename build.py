@@ -726,7 +726,7 @@ DATA = R
 # 顶部提醒板块 —— lv: urgent(红) / warn(黄) / info(蓝)
 # 每周更新时把过期的删掉、把当前最紧的放最上面
 # ============================================================
-VERSION = "v1.2"
+VERSION = "v1.3"
 UPDATED = "2026-07-30"
 
 NOTICES = [
@@ -743,6 +743,12 @@ NOTICES = [
 # k: new(新开放) / close(已关闭) / ddl(截止变动) / add(新增收录) / info(信息)
 # ============================================================
 CHANGELOG = [
+ {"date":"2026-07-30","ver":"v1.3","note":"倒计时改为实时计算。",
+  "items":[
+    {"k":"info","t":"<b>倒计时现在每天自己变</b>——按你打开页面当天实时算,不再依赖每周重建。截止日一过,该岗位会自动标成「已截止」、沉到列表底部、并从「现在可投」的计数里剔除。"},
+    {"k":"info","t":"新增数据新鲜度提示:顶部会显示距上次核查多少天;超过 10 天会自动弹出橙色警告,提醒自动更新可能没跑起来,别把过时数据当最新的用。"},
+    {"k":"info","t":"筛选器新增「已截止」一档,想回看已经关掉的岗位可以单独筛。"},
+  ]},
  {"date":"2026-07-30","ver":"v1.2","note":"应朋友要求补齐私行条线,并加上这个更新板块。",
   "items":[
     {"k":"add","t":"新增<b>「私行 / 财富管理」</b>条线,收录 24 个岗位,筛选器里可单独筛。"},
@@ -769,7 +775,7 @@ FUNC_LABEL = {"IBD":"IBD / M&A","ECM":"ECM·DCM·结构融资","S&T":"Sales & Tr
 CL_LABEL = {"new":("新开放","gr"),"close":("已关闭","gy"),"ddl":("截止变动","rd"),
             "add":("新增收录","ac"),"info":("信息","am")}
 ORG_LABEL = {"BB":"外资投行","EB":"精品行 / 独立顾问","CN":"中资在港","BUY":"买方机构","QUANT":"量化 / Prop","VC":"VC / Crypto"}
-ST_LABEL  = {"open":"已开放","soon":"即将开放","watch":"待观察"}
+ST_LABEL  = {"open":"已开放","soon":"即将开放","watch":"待观察","exp":"已截止"}
 
 html = io.StringIO()
 html.write("""<!DOCTYPE html>
@@ -823,6 +829,9 @@ align-items:center;cursor:pointer;transition:.12s}
 .ch{display:inline-block;padding:2.5px 9px;border-radius:20px;font-size:11.4px;font-weight:700;white-space:nowrap}
 .ch.open{color:var(--gr);background:var(--grb)}.ch.soon{color:var(--am);background:var(--amb)}
 .ch.watch{color:var(--gy);background:var(--gyb)}
+.ch.exp{color:var(--rd);background:var(--rdb)}
+.card:has(.ch.exp){opacity:.62}
+.card:has(.ch.exp):hover{opacity:1}
 .dl{font-size:12.4px;font-weight:600;white-space:nowrap}
 .dl small{display:block;font-weight:400;color:var(--mu);font-size:10.8px}
 .dl.hot{color:var(--rd)}.dl.warm{color:var(--am)}
@@ -881,7 +890,8 @@ background:var(--ac);color:#fff;margin-left:7px;vertical-align:middle}
 .bar{position:static}}
 </style></head><body><div class="w">
 <h1>HK 前台求职追踪 · 2027 Summer & Off-cycle</h1>
-<div class="sub">香港前台条线(IBD / ECM·DCM / S&amp;T / 研究 / 买方投资 / 量化)· 数据核验于 2026-07-30 · 全部链接指向官方入口</div>
+<div class="sub">香港前台条线(IBD / ECM·DCM / S&amp;T / 研究 / 私行 / 买方投资 / 量化)· 全部链接指向官方入口</div>
+<div class="sub" id="fresh" style="margin-top:-12px"></div>
 <div class="kpis">
 <div class="kpi g"><b id="k1">0</b><span>已开放,现在可投</span></div>
 <div class="kpi r"><b id="k2">0</b><span>30 天内截止</span></div>
@@ -964,16 +974,26 @@ html.write("""
 """)
 
 html.write("<script>\nconst D=" + json.dumps(DATA, ensure_ascii=False) + ";\n")
+html.write(f'const UPDATED_AT="{UPDATED}";\n')
 html.write("const FL=" + json.dumps(FUNC_LABEL, ensure_ascii=False) + ",OL=" + json.dumps(ORG_LABEL, ensure_ascii=False) + ",SL=" + json.dumps(ST_LABEL, ensure_ascii=False) + ";\n")
 html.write(r"""
 const F={func:"",org:"",st:"",typ:""};
-const TODAY=new Date(2026,6,30);
+/* 实时基准:每次打开页面按访问者当天重新计算,不依赖构建时写死的日期 */
+const TODAY=(function(){var d=new Date();d.setHours(0,0,0,0);return d;})();
 function days(s){if(!s)return null;const p=s.split("-");const d=new Date(+p[0],+p[1]-1,+p[2]);
 return Math.round((d-TODAY)/864e5);}
+/* 截止日已过 → 自动判定为已截止,不用等每周重建 */
+function isExp(r){const n=days(r.ddl);return n!==null&&n<0;}
+function effSt(r){return isExp(r)?"exp":r.st;}
 function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function dcell(r){const n=days(r.ddl);let cls="",sub="";
-if(n!==null){if(n<0){cls="hot";sub="已过期,核官网";}else if(n<=10){cls="hot";sub="剩 "+n+" 天";}
-else if(n<=30){cls="warm";sub="剩 "+n+" 天";}else{sub="剩 "+n+" 天";}}
+if(n!==null){
+  if(n<0){cls="hot";sub=(-n)+" 天前已截止";}
+  else if(n===0){cls="hot";sub="今天最后一天";}
+  else if(n===1){cls="hot";sub="只剩明天";}
+  else if(n<=10){cls="hot";sub="剩 "+n+" 天";}
+  else if(n<=30){cls="warm";sub="剩 "+n+" 天";}
+  else{sub="剩 "+n+" 天";}}
 return '<div class="dl '+cls+'">'+esc(r.ddl_txt||"—")+(sub?'<small>'+sub+'</small>':'')+'</div>';}
 function row(r,i){const d=[["薪资",r.pay],["时长",r.dur],["语言要求",r.lang],["签证 / 工作权利",r.visa],
 ["GPA 门槛(原文)",r.gpa],["网申测评与面试流程",r.proc],["历年开放规律",r.pat]];
@@ -983,19 +1003,19 @@ return '<div class="card" data-i="'+i+'"><div class="hd">'+
 '<div class="fm">'+esc(r.firm)+'<small>'+OL[r.org]+(r.loc?' · '+esc(r.loc):'')+'</small></div>'+
 '<div><div class="rl">'+esc(r.role)+'</div><div class="tags"><span class="t fn">'+FL[r.func]+'</span>'+
 '<span class="t tp">'+esc(r.typ)+'</span>'+(r.opened?'<span class="t">上线 '+esc(r.opened)+'</span>':'')+'</div></div>'+
-'<div><span class="ch '+r.st+'">'+SL[r.st]+'</span></div>'+dcell(r)+
+'<div><span class="ch '+effSt(r)+'">'+SL[effSt(r)]+'</span></div>'+dcell(r)+
 '<a class="go" href="'+r.url+'" target="_blank" rel="noopener">申请 →</a>'+
 '</div><div class="bd"><div class="dg">'+dd+'</div>'+
 (r.note?'<div class="nt">'+esc(r.note)+'</div>':'')+'</div></div>';}
 function render(){const q=(document.getElementById("q").value||"").toLowerCase();
 const out=D.map(function(r,i){return [r,i];}).filter(function(p){const r=p[0];
 if(F.func&&r.func!==F.func)return false;if(F.org&&r.org!==F.org)return false;
-if(F.st&&r.st!==F.st)return false;
+if(F.st&&effSt(r)!==F.st)return false;
 if(F.typ&&r.typ.indexOf("Offcycle")<0&&r.typ.indexOf("双轨")<0)return false;
 if(q){const blob=(r.firm+r.role+r.note+r.loc+r.pat+r.proc+r.gpa+r.lang).toLowerCase();
 if(blob.indexOf(q)<0)return false;}return true;});
 out.sort(function(a,b){const x=days(a[0].ddl),y=days(b[0].ddl);
-const ra={open:0,soon:1,watch:2}[a[0].st],rb={open:0,soon:1,watch:2}[b[0].st];
+const ra={open:0,soon:1,watch:2,exp:3}[effSt(a[0])],rb={open:0,soon:1,watch:2,exp:3}[effSt(b[0])];
 if(ra!==rb)return ra-rb;
 if(x===null&&y===null)return 0;if(x===null)return 1;if(y===null)return -1;return x-y;});
 document.getElementById("list").innerHTML=out.map(function(p){return row(p[0],p[1]);}).join("")||
@@ -1015,10 +1035,26 @@ if(mb)mb.onclick=function(e){e.stopPropagation();
 var hs=document.querySelectorAll(".oldentry"),sh=hs[0]&&hs[0].classList.contains("hid");
 hs.forEach(function(x){x.classList.toggle("hid",!sh);});
 mb.textContent=sh?"收起历史记录 ⌃":"展开历史记录("+hs.length+" 条更早的更新) ⌄";};
-document.getElementById("k1").textContent=D.filter(function(r){return r.st==="open";}).length;
+/* KPI 同样实时算:已截止的自动从「现在可投」里剔除 */
+document.getElementById("k1").textContent=D.filter(function(r){return effSt(r)==="open";}).length;
 document.getElementById("k2").textContent=D.filter(function(r){const n=days(r.ddl);return n!==null&&n>=0&&n<=30;}).length;
-document.getElementById("k3").textContent=D.filter(function(r){return r.st==="soon";}).length;
+document.getElementById("k3").textContent=D.filter(function(r){return effSt(r)==="soon";}).length;
 document.getElementById("k4").textContent=D.length;
+
+/* 数据新鲜度:超过 10 天没核查就显式提示,不让人误以为是最新的 */
+(function(){
+var u=UPDATED_AT.split("-"),ud=new Date(+u[0],+u[1]-1,+u[2]);
+var age=Math.round((TODAY-ud)/864e5);
+var el=document.getElementById("fresh");
+if(!el)return;
+var t=TODAY.getFullYear()+" 年 "+(TODAY.getMonth()+1)+" 月 "+TODAY.getDate()+" 日";
+el.innerHTML="今天是 "+t+" · 下方倒计时按今天实时计算 · 数据最后核查于 "+UPDATED_AT+
+ (age<=0?"(今天)":"("+age+" 天前)");
+if(age>10){var w=document.createElement("div");w.className="alert";
+w.innerHTML="<b>⚠ 数据可能已过时:</b>距上次核查已 "+age+
+" 天,自动更新可能没跑起来(常见原因是 GitHub token 过期)。下方状态与截止日请以各机构官网为准。";
+var host=document.querySelector(".kpis");host.parentNode.insertBefore(w,host.nextSibling);}
+})();
 render();
 </script></body></html>""")
 
