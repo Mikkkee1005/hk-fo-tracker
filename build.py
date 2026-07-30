@@ -722,8 +722,52 @@ add(firm="渣打银行 Standard Chartered", org="BB", role="Wealth and Retail Ba
 
 DATA = R
 
+# ============================================================
+# 顶部提醒板块 —— lv: urgent(红) / warn(黄) / info(蓝)
+# 每周更新时把过期的删掉、把当前最紧的放最上面
+# ============================================================
+VERSION = "v1.2"
+UPDATED = "2026-07-30"
+
+NOTICES = [
+ {"lv":"urgent","title":"最紧的三条",
+  "body":"① <b>UBS 香港 Global Banking + Global Markets:8月6日硬截止</b>——UBS 走固定窗口不是招满即止,只剩几天;② <b>Millennium 2027 批 8月3日开放</b>,最多投 2 份,开放当天投;③ <b>Morgan Stanley 第一轮 8月16日</b>(IBD/IED/FID/GCM 四个口可分投)。"},
+ {"lv":"warn","title":"做私行的先看这条",
+  "body":"香港大部分私行(GS、UBS、渣打、中银香港、交银香港、Julius Baer、Pictet、Bank of Singapore、LGT、EFG、BNP、CA Indosuez)<b>根本不公开挂学生岗</b>,唯一的学生入口是 <b>PWMA 私人财富管理公会的 Apprenticeship Programme</b>——一份申请覆盖 16–18 家成员行、约 45 个名额、月薪不低于 HK$10,000、<b>大一到大三任何专业</b>、八大院校在读即可,预计 <b>11 月开放</b>。公开挂牌的私行暑期岗目前只有 <b>JPM Private Bank 的两个</b>(Advisor / Investment Solutions,9/30 截止)。"},
+ {"lv":"warn","title":"两个结构性盲区",
+  "body":"① <b>ECM/DCM 与 S&amp;T 是与 IBD 完全独立的申请</b>——BofA 的 GCM(14375)、MS 的 GCM(21294)、GS 的 CSG,投了 IBD 不会进这些池子,而且历年相对不饱和;② 全香港 2027 批<b>真正的股票研究实习只有三个</b>(GS GIR、JPM Markets-Research、HSBC GIR),其中 JPM 那个挂在 Markets 目录下,用 research 关键词根本搜不到。"},
+]
+
+# ============================================================
+# 更新日志 —— 最新的放最前面
+# k: new(新开放) / close(已关闭) / ddl(截止变动) / add(新增收录) / info(信息)
+# ============================================================
+CHANGELOG = [
+ {"date":"2026-07-30","ver":"v1.2","note":"应朋友要求补齐私行条线,并加上这个更新板块。",
+  "items":[
+    {"k":"add","t":"新增<b>「私行 / 财富管理」</b>条线,收录 24 个岗位,筛选器里可单独筛。"},
+    {"k":"new","t":"JPM Private Bank 香港两个 2027 暑期岗确认在挂:<b>Advisor Program</b>(RM 轨)与 <b>Investment Solutions Program</b>(投研轨),均 9/30 截止、HireVue 必做、两份独立申请。"},
+    {"k":"info","t":"收录 <b>PWMA 学徒计划</b>——GS、UBS、渣打、中银香港等不公开挂学生岗的机构,这是唯一学生入口。大一到大三任何专业,预计 11 月开放。"},
+    {"k":"info","t":"收录 <b>东亚银行「连续两个暑期」</b>格式(PWMA 里仅四家有),对 2028 届等于一次申请锁定两个暑假。"},
+    {"k":"info","t":"泼冷水的核查结论:UBS 香港<b>没有</b> GWM 暑期岗(流传的是美国岗且已过期);HSBC Global Private Banking <b>不在</b>其 7/6 放出的香港套装里;Barclays 私行在<b>新加坡</b>不在香港;Pictet 那个 48 个月私人银行家项目<b>不收本科生</b>。"},
+  ]},
+ {"date":"2026-07-30","ver":"v1.1","note":"补齐前台非 IBD 条线。",
+  "items":[
+    {"k":"add","t":"补上一批只搜 IBD 会漏掉的前台岗:BofA <b>GCM</b>(14375)、MS <b>GCM</b>(21294)、GS <b>CSG</b>、Barclays <b>Electronic Trading</b> 与 <b>量化 off-cycle</b>、HSBC <b>Infrastructure Finance</b>。"},
+    {"k":"add","t":"股票研究条线单列。全港 2027 批只有三个:GS GIR、JPM Markets-Research(挂在 Markets 目录下)、HSBC GIR。"},
+    {"k":"info","t":"逐家核对了 12 家大行 posting 原文的 GPA 门槛。写死数字的只有 <b>Jefferies 3.4</b>、<b>BNP 3.3</b>、<b>招银国际 SIP 3.3</b>;Barclays 是「ideally 3.2」的软措辞;其余不写数字也不在申请阶段强制传成绩单。"},
+  ]},
+ {"date":"2026-07-30","ver":"v1.0","note":"上线。",
+  "items":[
+    {"k":"add","t":"首版收录香港前台 2027 Summer 与 Off-cycle 岗位,含薪资、时长、语言与签证要求、GPA 门槛原文、网申测评与面试流程、历年开放规律。"},
+    {"k":"info","t":"<b>Citi 的规律是 Markets 先开、Banking 晚 1–3 个月</b>——7/10 Markets 已开、IBD 未挂,不要读成错过了。"},
+  ]},
+]
+
 FUNC_LABEL = {"IBD":"IBD / M&A","ECM":"ECM·DCM·结构融资","S&T":"Sales & Trading","RES":"股票研究",
               "PB":"私行 / 财富管理","BUY":"买方投资(PE/VC/HF/AM)","QUANT":"量化 / Prop"}
+CL_LABEL = {"new":("新开放","gr"),"close":("已关闭","gy"),"ddl":("截止变动","rd"),
+            "add":("新增收录","ac"),"info":("信息","am")}
 ORG_LABEL = {"BB":"外资投行","EB":"精品行 / 独立顾问","CN":"中资在港","BUY":"买方机构","QUANT":"量化 / Prop","VC":"VC / Crypto"}
 ST_LABEL  = {"open":"已开放","soon":"即将开放","watch":"待观察"}
 
@@ -803,6 +847,31 @@ h2{font-size:15px;margin:26px 0 9px;color:var(--mu);font-weight:700;letter-spaci
 .appx{background:var(--card);border:1px solid var(--bd);border-radius:11px;padding:14px 17px;margin-top:12px;font-size:12.8px;line-height:1.65}
 .appx a{color:var(--ac);text-decoration:none;font-weight:600}.appx a:hover{text-decoration:underline}
 .appx h3{font-size:13.5px;margin:0 0 7px}
+.ver{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11.5px;font-weight:700;
+background:var(--ac);color:#fff;margin-left:7px;vertical-align:middle}
+.log{background:var(--card);border:1px solid var(--bd);border-radius:11px;margin-bottom:14px;overflow:hidden}
+.logh{display:flex;align-items:center;gap:9px;padding:11px 15px;cursor:pointer;user-select:none}
+.logh:hover{background:var(--card2)}
+.logh b{font-size:13.5px}
+.logh .when{color:var(--mu);font-size:11.8px;margin-left:auto}
+.logb{padding:0 15px 13px}
+.entry{padding:11px 0;border-top:1px dashed var(--bd)}
+.entry:first-child{border-top:none}
+.ehd{display:flex;align-items:baseline;gap:8px;margin-bottom:7px;flex-wrap:wrap}
+.ehd .d{background:none;border:none;padding:0;color:var(--mu);font-size:11.5px;font-weight:600}
+.ehd .v{font-size:11.5px;font-weight:700;color:var(--ac)}
+.ehd .n{color:var(--mu);font-size:12px}
+.li{display:flex;gap:8px;align-items:baseline;padding:3.5px 0;font-size:12.7px;line-height:1.55}
+.kk{flex:none;font-size:10.5px;font-weight:700;padding:1.5px 7px;border-radius:4px;white-space:nowrap;min-width:56px;text-align:center}
+.kk.gr{color:var(--gr);background:var(--grb)} .kk.gy{color:var(--gy);background:var(--gyb)}
+.kk.rd{color:var(--rd);background:var(--rdb)} .kk.am{color:var(--am);background:var(--amb)}
+.kk.ac{color:var(--ac);background:rgba(91,141,239,.13)}
+.more{margin-top:9px;font-size:12.2px;color:var(--ac);cursor:pointer;font-weight:600;user-select:none}
+.more:hover{text-decoration:underline}
+.hid{display:none}
+.arw{color:var(--mu);font-size:15px;transition:transform .15s}
+.log.op .arw{transform:rotate(180deg)}
+.log:not(.op) .logb{display:none}
 @media(max-width:900px){
 .hd{grid-template-columns:1fr;gap:7px}
 .dl,.ch{justify-self:start}
@@ -819,10 +888,30 @@ h2{font-size:15px;margin:26px 0 9px;color:var(--mu);font-weight:700;letter-spaci
 <div class="kpi a"><b id="k3">0</b><span>即将开放,设提醒</span></div>
 <div class="kpi"><b id="k4">0</b><span>收录岗位总数</span></div>
 </div>
-<div class="alert"><b>⏰ 最紧的三条:</b>① <b>UBS 香港 Global Banking + Global Markets:8月6日硬截止</b>——UBS 走固定窗口不是招满即止,只剩几天;② <b>Millennium 2027 批 8月3日开放</b>,最多投 2 份,开放当天投;③ <b>Morgan Stanley 第一轮 8月16日</b>(IBD/IED/FID/GCM 四个口可分投)。</div>
-<div class="alert am"><b>三个结构性提醒:</b>① <b>ECM/DCM 与 S&amp;T 是与 IBD 完全独立的申请</b>——BofA 的 GCM(14375)、MS 的 GCM(21294)、GS 的 CSG,投了 IBD 不会进这些池子,而且历年相对不饱和;② 全香港 2027 批<b>真正的股票研究实习只有三个</b>(GS GIR、JPM Markets-Research、HSBC GIR),其中 JPM 那个挂在 Markets 目录下,用 research 关键词根本搜不到;③ <b>私行条线的入口结构和别的条线完全不同</b>——见下。</div>
-<div class="alert am"><b>做私行的话先看这条:</b>香港大部分私行(GS、UBS、渣打、中银香港、交银香港、Julius Baer、Pictet、Bank of Singapore、LGT、EFG、BNP、CA Indosuez)<b>根本不公开挂学生岗</b>,唯一的学生入口是 <b>PWMA 私人财富管理公会的 Apprenticeship Programme</b>——一份申请覆盖 16–18 家成员行、约 45 个名额、月薪不低于 HK$10,000、<b>大一到大三任何专业</b>、八大院校在读即可,预计 <b>11 月开放</b>。做私行方向的人,这是全表性价比最高的一枪。公开挂牌的私行暑期岗目前只有 <b>JPM Private Bank 的两个</b>(Advisor / Investment Solutions,9/30 截止)。</div>
 """)
+
+# —— 提醒板块 ——
+for n in NOTICES:
+    cls = "alert" if n["lv"]=="urgent" else ("alert am" if n["lv"]=="warn" else "alert info")
+    icon = "\u23f0 " if n["lv"]=="urgent" else ""
+    html.write(f'<div class="{cls}">{icon}<b>{n["title"]}:</b>{n["body"]}</div>\n')
+
+# —— 更新日志 ——
+html.write('<div class="log op"><div class="logh" id="logh"><span class="arw">\u2304</span>'
+           f'<b>\u66f4\u65b0\u65e5\u5fd7</b><span class="ver">{VERSION}</span>'
+           f'<span class="when">\u6700\u540e\u66f4\u65b0 {UPDATED} \u00b7 \u6bcf\u5468\u4e00\u81ea\u52a8\u6838\u67e5</span></div>'
+           '<div class="logb">')
+for i, e in enumerate(CHANGELOG):
+    hid = " hid oldentry" if i > 0 else ""
+    html.write(f'<div class="entry{hid}"><div class="ehd"><span class="d">{e["date"]}</span>'
+               f'<span class="v">{e["ver"]}</span><span class="n">{e.get("note","")}</span></div>')
+    for it in e["items"]:
+        lbl, col = CL_LABEL[it["k"]]
+        html.write(f'<div class="li"><span class="kk {col}">{lbl}</span><span>{it["t"]}</span></div>')
+    html.write('</div>')
+if len(CHANGELOG) > 1:
+    html.write(f'<div class="more" id="more">\u5c55\u5f00\u5386\u53f2\u8bb0\u5f55\uff08{len(CHANGELOG)-1} \u6761\u66f4\u65e9\u7684\u66f4\u65b0\uff09\u2304</div>')
+html.write('</div></div>\n')
 
 html.write('<div class="bar">\n<div class="row"><span class="lbl">条线</span>')
 html.write('<button class="f on" data-k="func" data-v="">全部</button>')
@@ -919,6 +1008,13 @@ b.classList.add("on");render();};});
 document.getElementById("q").oninput=render;
 document.getElementById("list").onclick=function(e){if(e.target.closest(".go"))return;
 const c=e.target.closest(".card");if(c)c.classList.toggle("op");};
+var lh=document.getElementById("logh");
+if(lh)lh.onclick=function(){document.querySelector(".log").classList.toggle("op");};
+var mb=document.getElementById("more");
+if(mb)mb.onclick=function(e){e.stopPropagation();
+var hs=document.querySelectorAll(".oldentry"),sh=hs[0]&&hs[0].classList.contains("hid");
+hs.forEach(function(x){x.classList.toggle("hid",!sh);});
+mb.textContent=sh?"收起历史记录 ⌃":"展开历史记录("+hs.length+" 条更早的更新) ⌄";};
 document.getElementById("k1").textContent=D.filter(function(r){return r.st==="open";}).length;
 document.getElementById("k2").textContent=D.filter(function(r){const n=days(r.ddl);return n!==null&&n>=0&&n<=30;}).length;
 document.getElementById("k3").textContent=D.filter(function(r){return r.st==="soon";}).length;

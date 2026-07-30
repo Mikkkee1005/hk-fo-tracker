@@ -25,6 +25,24 @@ npm i playwright --silent
 node -e "const{chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome',args:['--no-sandbox']});const p=await b.newPage();const e=[];p.on('pageerror',x=>e.push(''+x));await p.goto('file://'+process.cwd()+'/index.html');await p.waitForTimeout(800);console.log('errors:',e.length?e:'none','cards:',await p.locator('.card').count());await b.close()})()"
 ```
 
+## 每次更新必做的三件事(顺序不能省)
+
+1. **改 `VERSION` 和 `UPDATED`** —— `UPDATED` 写今天,`VERSION` 小版本号 +1(v1.2 → v1.3)。
+2. **在 `CHANGELOG` 列表**最前面插入一条新条目。这是使用者最先看的东西,写清楚这周变了什么:
+
+```python
+{"date":"2026-08-03","ver":"v1.3","note":"一句话说明这次更新的性质,没什么可说就留空字符串",
+ "items":[
+   {"k":"new",  "t":"<b>Citi 香港 IBD</b> 2027 暑期岗已挂出,截止 X 月 X 日。"},
+   {"k":"ddl",  "t":"<b>Morgan Stanley</b> 第一轮 8/16 已过,现在走第二轮 9/27。"},
+   {"k":"close","t":"<b>UBS</b> 香港两个暑期岗 8/6 已截止,已从可投列表下掉。"},
+ ]}
+```
+`k` 取值:`new` 新开放 / `close` 已关闭 / `ddl` 截止变动 / `add` 新增收录 / `info` 信息。
+`t` 里可以用 `<b></b>`,会原样渲染。**这周没变化就写一条 `info` 说明「本周无变化」,不要跳过条目。**
+
+3. **更新 `NOTICES`** —— 顶部那几个提醒框。把已经过期的时点删掉,换成当下最紧的。`lv` 取 `urgent`(红)/ `warn`(黄)/ `info`(蓝),最多留三条,别堆。
+
 ## 字段说明
 
 | 字段 | 取值 |
