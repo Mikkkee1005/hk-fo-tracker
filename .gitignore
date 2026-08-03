@@ -1,0 +1,4 @@
+# playwright 验证步骤(MAINTENANCE.md)每周会在本地装一次,产物不入库
+node_modules/
+package.json
+package-lock.json
