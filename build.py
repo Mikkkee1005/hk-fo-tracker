@@ -17,7 +17,15 @@ add(firm="Goldman Sachs", org="BB", role="2027 APEJ Summer Analyst — Global In
     lang="官方未写语言硬性要求", visa="未提及", gpa="posting 无 GPA 数字",
     proc="前台条线通常无笔试 → HireVue 录播(约30分钟,3–6题,每题约30秒准备/1.5–2分钟作答,常可重录1–3次)→ Superday 2–5 场面试(香港多为现场)",
     pat="APEJ 惯例 6月底–7月初集中放岗;2026年7月1日一批全部上线;2026届 Asia 截止在 10月5日",
-    note="⚠️ GS 每个 cycle 最多投 4 个 business×location 组合,选岗即是取舍。8/17 复核:HK 的 IBD Classic 岗仍未挂出(2026届是 roles/150841),等 Classic 的人要注意别错过 CSG。官方 APAC 项目页已明确整个 2027 暑期批 10月4日统一截止。")
+    note="⚠️ GS 每个 cycle 最多投 4 个 business×location 组合,选岗即是取舍。★ 8/24 更新:等了整个夏天的 HK IBD Classic 岗已挂出(roles/170772),见下方卡片。官方 APAC 项目页已明确整个 2027 暑期批 10月4日统一截止。")
+add(firm="Goldman Sachs", org="BB", role="2027 APEJ Summer Analyst — Investment Banking, Classic",
+    func="IBD", typ="Summer", loc="香港", url="https://higher.gs.com/roles/170772", st="open",
+    ddl="2026-10-04", ddl_txt="10/4(APAC 官方统一截止)", opened="2026-08(约)",
+    pay="未公开;Glassdoor HK IB SA 中位约 HK$64k/月(自报,低样本)", dur="9–11 周(官方)",
+    lang="官方未写语言硬性要求", visa="未提及", gpa="posting 无 GPA 数字",
+    proc="HireVue 录播 → Superday 2–5 场面试(香港多为现场)",
+    pat="2026 届的对应岗是 roles/150841;2027 届比 7月1日第一批晚了约七周才补挂",
+    note="★★ 8/24 本周最重要的新岗:GS 香港投行部的「正统」IBD 入口终于开了,页面标题为「2027 | APEJ | Hong Kong | Investment Banking, Classic | Summer Analyst」,Apply 按钮实测有效。⚠️ 这与 Capital Solutions Group(170773)是两份独立申请,各占 GS 那 4 个申请额度中的一个——想清楚再投。统一 10/4 截止。")
 add(firm="Goldman Sachs", org="BB", role="2027 APEJ Summer Analyst — FICC and Equities, Sales & Trading",
     func="S&T", typ="Summer", loc="香港", url="https://higher.gs.com/roles/169893", st="open",
     ddl="2026-10-04", ddl_txt="10/4(APAC 官方统一截止)", opened="2026-07-01",
@@ -69,6 +77,15 @@ add(firm="Morgan Stanley", org="BB", role="2027 Global Capital Markets — IP / 
     pay="同上", dur="Summer 10–12 周 / IP 六个月", lang="英文必须", visa="未提及", gpa="无 GPA 数字",
     proc="同上", pat="同上",
     note="★ GCM = ECM/DCM/杠杆融资。这是与 IBD 完全独立的一份申请——投了 IBD 不会进这个池子,而且历年相对不饱和。")
+add(firm="Morgan Stanley", org="BB", role="2027 IED Quantitative Finance — Summer Analyst / Associate",
+    func="QUANT", typ="Summer", loc="香港", url="https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/21270-2027-Institutional-Equity-Division-Quantitative-Finance-Summer-Analyst-Associate-Program-Hong-Kong/en-GB", st="open",
+    ddl="2026-09-27", ddl_txt="R1 已过 · R2 9/27(终轮)", opened="2026-07-07",
+    pay="同 MS 其余香港岗", dur="Summer 10–12 周",
+    lang="英文必须", visa="未提及",
+    gpa="posting 无 GPA 数字,但要求数理/CS/工程背景与编程能力",
+    proc="同 MS 流程:线上测试 → HireVue 录播 → 香港 Superday",
+    pat="与 IBD/IED/FID/GCM 同批 7月7日上线,共用 R1 8/16 + R2 9/27 双轮",
+    note="★ 8/24 新收录:此前漏收的第五个 MS 香港岗。官方原文「penultimate year of a Bachelor's, Master's, or PhD... expected graduation between September 2027 and June 2028」——本科 penultimate 明确可投。⚠️ 与普通 IED 岗(21266)是两份独立申请,做量化方向的别只投 IED。")
 
 add(firm="J.P. Morgan", org="BB", role="2027 CIB — Global Investment Banking Summer Analyst",
     func="IBD", typ="Summer", loc="香港", url="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210749752", st="open",
@@ -109,6 +126,14 @@ add(firm="Bank of America", org="BB", role="Global Markets Sales & Trading Rotat
     func="S&T", typ="Summer", loc="香港", url="https://careers.bankofamerica.com/en-us/students/job-detail/14366/global-markets-sales-trading-rotational-summer-analyst-2027-hong-kong-hong-kong-hong-kong", st="open",
     ddl="2026-09-30", ddl_txt="9/30", opened="2026-06-30",
     pay="未公开", dur="10 周", lang="同上", visa="未提及", gpa="无数字", proc="同上", pat="同上", note="轮岗制,跨台子。")
+add(firm="Bank of America", org="BB", role="Global Corporate Banking Summer Analyst 2027",
+    func="IBD", typ="Summer", loc="香港", url="https://careers.bankofamerica.com/en-us/students/job-detail/14384/global-corporate-banking-summer-analyst-2027-hong-kong-hong-kong-hong-kong", st="open",
+    ddl="2026-09-30", ddl_txt="9/30", opened="2026-07(约)",
+    pay="未公开", dur="10 周",
+    lang="官方:英文流利必须,另一门亚洲语言「highly advantageous」", visa="未提及",
+    gpa="posting 写 outstanding academic achievement,无数字",
+    proc="同 BofA 其余香港岗", pat="与 IBD(14367)、GCM(14375)、Global Markets(14366)同批",
+    note="★ 8/24 新收录:BofA 香港的第四个前台岗,此前漏收。官方原文 penultimate year、2028 届可转正。属客户覆盖/公司银行条线(不是 M&A 执行),但客户面工作、与 IBD 协作紧密,收进主表。与另外三个 BofA 岗各自独立申请。")
 
 add(firm="Citi", org="BB", role="Markets – Sales and Trading, Summer Analyst, Hong Kong – 2027",
     func="S&T", typ="Summer", loc="香港", url="https://jobs.citi.com/job/hong-kong/markets-sales-and-trading-summer-analyst-hong-kong-2027/287/97603330976", st="open",
@@ -152,17 +177,17 @@ add(firm="UBS", org="BB", role="2027 Summer Internship — Asset Management",
     pat="与 GB/GM 同为 2027 香港批,7 月中旬后补挂",
     note="★ 8/3 新发现:此前漏收的 UBS 香港买方侧暑期岗(jobid 348591)。与同批 GB/GM 均为 8/6 硬截止,此岗大概率同期——按 8/6 对待,立即投。UBS 深链常误显示 expired,从 jobs.ubs.com 搜索页进入。")
 add(firm="UBS", org="BB", role="2027 Off-Cycle Internship — Global Wealth Management, Solutions",
-    func="BUY", typ="Offcycle", loc="香港", url="https://hk.linkedin.com/jobs/view/2027-off-cycle-internship-global-wealth-management-solutions-hk-at-ubs-4436463723", st="open",
-    ddl="", ddl_txt="滚动", opened="2026-07",
+    func="BUY", typ="Offcycle", loc="香港", url="https://hk.linkedin.com/jobs/view/2027-off-cycle-internship-global-wealth-management-solutions-hk-at-ubs-4436463723", st="watch",
+    ddl="", ddl_txt="⚠️ 8/24 官方职位库查无此岗", opened="",
     pay="未公开", dur="通常 6 个月(项目范围 3–12 个月)",
     lang="APAC off-cycle 资格:倒数第二年在读、<2年工作经验、实习结束后 6–12 个月内毕业", visa="未写", gpa="无 GPA 数字",
     proc="同 UBS 流程", pat="2027 off-cycle 与 summer 同批(7月)上线,按台子分别发布、全年补挂",
-    note="偏投资方案侧(非纯组合管理)。UBS 的 Global Banking / Global Markets / Global Research 的 2027 off-cycle 也在陆续上,建议每周刷。")
-add(firm="UBS", org="BB", role="2027 Off-Cycle Internship — Global Research",
-    func="RES", typ="Offcycle", loc="新加坡", url="https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348322", st="open",
-    ddl="", ddl_txt="滚动", opened="2026-07",
+    note="⚠️ 8/24 降级为待观察:UBS 官方 jobs.ubs.com 上搜不到这个香港岗,只有第三方聚合站(LinkedIn / ExpatJobBoard)还留着页面。同批多个 UBS off-cycle 的 jobid 实测都已返回「posting has expired」——UBS 这一轮 off-cycle 整体在收口。链接先留着自己点一次确认,别当作确定在挂。")
+add(firm="UBS", org="BB", role="2027 Off-Cycle Internship — Global Research(新加坡)",
+    func="RES", typ="Offcycle", loc="新加坡", url="https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348322", st="watch",
+    ddl="", ddl_txt="⚠️ 8/24 实测已过期", opened="",
     pay="未公开", dur="3–12 个月", lang="—", visa="—", gpa="无 GPA 数字", proc="同上", pat="同上",
-    note="⚠️ 特意列出:UBS 本轮把 APAC 的研究 off-cycle 放在了新加坡而非香港。没有 UBS 香港研究实习,愿意去 SG 的话这是 UBS 研究条线唯一入口。")
+    note="⚠️ 8/24 实测:该 jobid 页面已显示「The job posting you are looking for has expired or the position has already been filled」,香港的 Global Research off-cycle(jobid 348319)同样已过期。UBS 本轮 APAC 研究 off-cycle 到此为止;UBS 香港的暑期三岗也已于 8/6 硬截止——UBS 这条线目前基本无可投项。")
 
 add(firm="Barclays", org="BB", role="Investment Banking Summer Internship Programme 2027",
     func="IBD", typ="Summer", loc="香港", url="https://search.jobs.barclays/job/hong-kong/investment-banking-summer-internship-programme-2027-hong-kong/13015/97173677136", st="open",
@@ -182,12 +207,12 @@ add(firm="Barclays", org="BB", role="Electronic Trading Associate Summer Interns
     func="S&T", typ="Summer", loc="香港", url="https://search.jobs.barclays/job/hong-kong/electronic-trading-associate-summer-internship-programme-2027-hong-kong/13015/97173677472", st="open",
     ddl="", ddl_txt="Until filled(滚动)", opened="2026-06-30",
     pay="未公开", dur="10 周", lang="同上", visa="同上", gpa="ideally 3.2+", proc="同上", pat="同上",
-    note="★ 这里的 Associate 是项目名称不是 post-MBA 层级。独立于主 S&T 项目,极易漏投——想去 quant trading 又要留银行侧选项的人应该投这个。")
+    note="⚠️★ 8/24 重要更正:此前把 Associate 读成「只是项目名称」是错的——posting 原文明确限 postgraduate、毕业窗口 2027年12月–2028年6月,**2028 届本科 penultimate 不符合资格**,除非你走硕士路径。本科生想去 quant trading 又要留银行侧选项,应该投主 S&T 项目(Sales, Trading and Structuring)。")
 add(firm="Barclays", org="BB", role="Quantitative Analytics Associate Off-Cycle Internship 2027",
     func="QUANT", typ="Offcycle", loc="香港", url="https://search.jobs.barclays/job/hong-kong/quantitative-analytics-associate-off-cycle-internship-2027-hong-kong/13015/97173677168", st="open",
     ddl="", ddl_txt="Until filled(滚动)", opened="2026-06-30",
     pay="未公开", dur="off-cycle", lang="同上", visa="同上", gpa="—", proc="同上", pat="同上",
-    note="★ 目前极少数由 BB 公开发布的香港 off-cycle 量化岗,只搜 summer 完全看不到。")
+    note="★ 目前极少数由 BB 公开发布的香港 off-cycle 量化岗,只搜 summer 完全看不到。⚠️ 8/24 更正:同样限 postgraduate,2027年6–12 月六个月制,**本科 penultimate 不符合**。硕士在读或计划读硕的留着这一枪。")
 
 add(firm="HSBC", org="BB", role="Investment Banking Internship 2027",
     func="IBD", typ="Summer", loc="香港(中环)", url="https://apply.careers.hsbc.com/emergingtalent/job/Central-Investment-Banking-Internship-Hong/1365768357/", st="open",
@@ -221,7 +246,7 @@ add(firm="Jefferies", org="BB", role="2027 Investment Banking Summer Analyst —
     gpa="★硬线:「on track in obtaining a minimum of a 3.4 GPA or equivalent」",
     proc="候选人提到有 OA 但未指明供应商;首轮常为视频或现场约30分钟",
     pat="历年 6月底–7月放岗(2026=opp 1503,2025=opp 1240,2024=opp 940);2027 批香港晚了约一个月",
-    note="★ 8/17 新发现:Jefferies 官方 LinkedIn 已挂出『2027 Investment Banking Summer Analyst - Hong Kong』——上周查证还不存在的香港 2027 req 本周现身。官方 tal.net 板的搜索索引尚未同步出香港条目(板有机器人验证,本环境无法进入逐条核对),从 LinkedIn 岗位页点 Apply 或从官网 students 页进入 tal.net 亲测。GPA 3.4 硬线是全表最高,仅限 penultimate。")
+    note="★ 8/17 新发现,8/24 无法复核:LinkedIn 被 robots.txt 禁抓、Jefferies 的 tal.net 板全站机器人验证,两条路本环境都读不到正文,所以本周确认不了它是否还挂着、有没有加截止日。一个值得警惕的间接信号:tal.net 上 Jefferies 2027 IB SA 的美国岗(Chicago M&A、Charlotte、NY Debt Advisory)都已被索引,**唯独香港 2027 没有任何 tal.net URL 被索引**——要么香港岗还没同步到官方板只在 LinkedIn 先行,要么已同步但未被抓取。状态暂维持已开(上周有实证),但请自己开浏览器过一次 CAPTCHA 确认。GPA 3.4 硬线是全表最高,仅限 penultimate。")
 
 add(firm="J.P. Morgan", org="BB", role="2026 CIB — Markets Off-Cycle Analyst Program",
     func="S&T", typ="Offcycle", loc="香港", url="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210717757", st="open",
@@ -255,28 +280,57 @@ add(firm="Nomura", org="BB", role="2027 Global Markets Summer Internship — Hon
     pay="未公开", dur="未公开", lang="未公开", visa="未公开", gpa="香港未写",
     proc="同上", pat="与 IB、IWM 同批上线", note="8/10 核验:官方职位板在挂,从板内进入申请。")
 add(firm="Nomura", org="BB", role="2027 International Wealth Management Summer Internship — Hong Kong",
-    func="PB", typ="Summer", loc="香港", url="https://nomuracampus.tal.net/candidate/jobboard/vacancy/1/adv/", st="open",
-    ddl="2026-09-30", ddl_txt="9/30", opened="2026-08(约)",
+    func="PB", typ="Summer", loc="香港", url="https://nomuracampus.tal.net/candidate/jobboard/vacancy/1/adv/", st="watch",
+    ddl="", ddl_txt="⚠️ 8/24 复核不到 2027 版,改待观察", opened="",
     pay="未公开", dur="未公开", lang="未公开", visa="未公开", gpa="香港未写",
     proc="同上", pat="与 IB、GM 同批上线",
-    note="★ 8/10 新发现:Nomura 香港私行/财富条线暑期岗——公开挂牌的香港私行暑期岗由 2 个(JPM PB 两岗)变 3 家,9/30 截止。")
-add(firm="Standard Chartered", org="BB", role="Global Banking / Financial Markets Internship 2027(香港待开)",
-    func="IBD", typ="Summer", loc="香港", url="https://jobs.standardchartered.com/", st="soon",
-    ddl="", ddl_txt="官方口径 8 月中旬;8/17 仍未挂", opened="",
-    pay="未公开", dur="10 周(2027年6月起)", lang="未公开", visa="未公开",
+    note="⚠️ 8/24 复核结论:Nomura 官方职位板 nomuracampus.tal.net 全站被人机验证拦住,五种 URL 形态都读不到内容;而 IB 与 GM 两个香港岗都能在多所大学 career center 的官方转载里找到 2027 版原文(9/30 11:55pm HKT),唯独 IWM 香港只搜得到 2025/2026 版本,没有 2027 版。这不等于下线,但按本表纪律——查不到就降为待观察。想投的自己过一次 captcha 到职位板确认,确认在挂就当 9/30 处理。")
+add(firm="Standard Chartered", org="BB", role="Global Banking Intern Hong Kong 2027(job 59126)",
+    func="IBD", typ="Summer", loc="香港", url="https://jobs.standardchartered.com/job/Global-Banking-Intern-Hong-Kong-2027/59126-en_GB/", st="open",
+    ddl="2026-12-31", ddl_txt="12/31 挂牌结束(10 月起面,会提前招满)", opened="2026-08-17",
+    pay="未公开", dur="10 周(2027年6月起)",
+    lang="未写硬性要求",
+    visa="⚠️★ 官方硬性:「must possess the permanent legal right to work in Hong Kong」——学生签不符合,非本地生慎投",
     gpa="★官方:不设 GPA,「we welcome students from all degree disciplines」,strengths-based",
-    proc="★pymetrics 游戏化测评(官方确认)→ 官方明示的单向录播视频面 → 终面",
-    pat="历史 eFC 数据显示香港/新加坡截止在 12月31日;美国与马来西亚 2027 已开",
-    note="不设 GPA + strengths-based,是大行里对成绩最不敏感的一家。⚠️ 8/17 复核:官方 early careers 页仍写其余市场(含香港)「will go live in mid-August」,但职位库实测尚无香港 2027 条目——官方自己的时间点已经到了,理论上任何一天都会挂出,继续每天刷 jobs.standardchartered.com。")
-add(firm="BNP Paribas", org="BB", role="APAC Internship(2027年1–6月,六个月制)",
-    func="S&T", typ="Offcycle", loc="香港", url="https://group.bnpparibas/en/careers/all-job-offers/hong-kong", st="soon",
-    ddl="", ddl_txt="★官方 FAQ:8 月开申", opened="",
-    pay="未公开", dur="六个月(2027年1–6月)", lang="官方:英文口笔流利必须,其他语言加分",
+    proc="★pymetrics 游戏化测评(官方确认)→ 单向录播视频面 → 评估中心(官方:2026年10月起开始)",
+    pat="2027 批 8月17日上线,posting end 12/31;转正后全职 2027年7月起",
+    note="★★ 8/24 核验:渣打兑现了官方的「8 月中旬」,2027 批已于 8/17 上线。业务覆盖资本市场、地产融资、基建融资。⚠️ 两个硬约束:① 必须有香港永久工作权(不是学生签),这是全表少见的国籍/身份硬门槛;② 官方限「六个月内只能投一份申请」——渣打三个香港岗只能三选一。页面没有写申请截止日,只有 posting end 12/31,但评估中心 10 月就开始,按滚动对待。")
+add(firm="Standard Chartered", org="BB", role="Coverage Banking Intern Hong Kong 2027(job 59110)",
+    func="IBD", typ="Summer", loc="香港", url="https://jobs.standardchartered.com/job/Central-Coverage-Banking-Intern-Hong-Kong-2027/1369586957/", st="open",
+    ddl="2026-12-31", ddl_txt="12/31 挂牌结束(10 月起面)", opened="2026-08-17",
+    pay="未公开", dur="10 周(2027年6月起)", lang="未写硬性要求",
+    visa="⚠️★ 同上:须有香港永久工作权",
+    gpa="不设 GPA,strengths-based",
+    proc="同上:pymetrics → 录播面 → 评估中心", pat="与 Global Banking 同批 8/17 上线",
+    note="★ 8/24 新收录:分到 Corporate Coverage、Financial Institutions Coverage、M&A 三个组之一——★ 想做 M&A 的走这个入口,不是 Global Banking。⚠️ 与 Global Banking 岗共用「六个月一份申请」的限制,只能选一个。同批还挂了 Transaction Services Intern(job 59114),属交易银行,不在本表前台口径内。")
+add(firm="Standard Chartered", org="BB", role="Financial Markets Internship 2027(香港待开)",
+    func="S&T", typ="Summer", loc="香港", url="https://jobs.standardchartered.com/", st="soon",
+    ddl="", ddl_txt="CIB 已开但 FM 未跟,分批上线", opened="",
+    pay="未公开", dur="10 周(2027年6月起)", lang="未写", visa="预计同为香港永久工作权要求",
+    gpa="不设 GPA,strengths-based", proc="同上",
+    pat="2026 批的 Financial Markets Internship Programme HongKong 独立成岗;2027 批 CIB 条线 8/17 先上,FM 未同批",
+    note="8/24 核验:渣打 2027 香港批只上了 CIB 三岗(Global Banking / Coverage Banking / Transaction Services),官方 sitemap 里 23 条 2027 岗位中没有任何 Financial Markets 条目——说明 FM 是分批而非同批,继续盯 jobs.standardchartered.com。")
+add(firm="BNP Paribas", org="BB", role="2027 APAC Long Internship(1–6月,六个月制)— Global Banking APAC",
+    func="IBD", typ="Offcycle", loc="香港", url="https://group.bnpparibas/en/careers/job-offer/2027-apac-long-internship-jan-jun-global-banking-apac-hong-kong", st="open",
+    ddl="", ddl_txt="页面未写截止,滚动收(尽快投)", opened="2026-08-17",
+    pay="未公开", dur="★六个月(2027年1月–6月),全职", lang="官方:英文口笔流利必须,其他语言加分",
     visa="官方:欢迎各国籍申请,但视来源国可能有签证限制",
-    gpa="★硬线:「Possess GPA of 3.3 out of 4.0 or above」(香港 Early Careers FAQ)",
+    gpa="Long Internship 页面未写 GPA(Graduate 线才写 3.3/4.0 硬线)",
     proc="未公开测评供应商;官方口径为「多数情况下先电话或视频面」",
-    pat="历史 eFC 数据显示香港/新加坡截止 11月30日;官方香港 early careers FAQ 明示「Applications open in August」",
-    note="★ 六个月 offcycle 的正规免费通道之一,但 GPA 3.3 是硬线。8/17 复核:香港岗位列表仍未出现 2027 批(最新的 Long Internship 仍是 2026 批),官方 FAQ 的「8 月开申」只剩两周窗口——继续每周盯,随时开闸。")
+    pat="2027 批香港站 8月17日批量上线,共 9 个岗(4 个 Long Internship + 5 个 Graduate)",
+    note="★★ 8/24 核验:BNP 兑现了「8 月开申」——职位页 last update 就是 8/17,你 8/17 当天没看到是因为当天稍晚才上。含 M&A / ECM / DCM / Coverage 等 stream。⚠️★ 官方原文:「Candidates with more than one application will not be processed」——BNP 全集团只让投一份,跨条线跨地点都算,投多份直接不处理。投前先在 Global Banking / Global Markets / Wealth Management 之间选定。")
+add(firm="BNP Paribas", org="BB", role="2027 APAC Long Internship(1–6月,六个月制)— Global Markets",
+    func="S&T", typ="Offcycle", loc="香港", url="https://group.bnpparibas/en/careers/job-offer/2027-apac-long-internship-jan-jun-global-markets-hong-kong", st="open",
+    ddl="", ddl_txt="页面未写截止,滚动收", opened="2026-08-17",
+    pay="未公开", dur="六个月(2027年1月–6月),全职", lang="英文流利必须", visa="同上",
+    gpa="页面未写", proc="同上", pat="与 Global Banking 同批 8/17 上线",
+    note="★ 8/24 新收录。⚠️ 与其余 BNP 岗共用「只能投一份」的限制。")
+add(firm="BNP Paribas", org="BB", role="2027 APAC Long Internship(1–6月,六个月制)— Wealth Management",
+    func="PB", typ="Offcycle", loc="香港", url="https://group.bnpparibas/en/careers/job-offer/2027-apac-long-internship-jan-jun-wealth-management-hong-kong", st="open",
+    ddl="", ddl_txt="页面未写截止,滚动收", opened="2026-08-17",
+    pay="未公开", dur="六个月(2027年1月–6月),全职", lang="英文流利必须", visa="同上",
+    gpa="页面未写", proc="同上", pat="与 Global Banking 同批 8/17 上线",
+    note="★ 8/24 新收录:私行条线的六个月 off-cycle,全港同规格的很少。⚠️ 与其余 BNP 岗共用「只能投一份」的限制。")
 add(firm="Wells Fargo", org="BB", role="APAC Banking / APAC Markets Summer Analyst 2027(香港待开)",
     func="IBD", typ="Summer", loc="香港", url="https://www.wellsfargojobs.com/en/early-careers/international-programs/apac-early-talent-programs/apac-banking-summer-analyst-program/", st="soon",
     ddl="", ddl_txt="预计 12 月中开、1 月底关", opened="",
@@ -315,7 +369,7 @@ add(firm="PJT Partners", org="EB", role="Asia Summer Analyst(香港)",
     pay="未公开", dur="未公开", lang="未公开", visa="未公开", gpa="未公开",
     proc="★PJT 官方要求做 Suited 测评;流程偏关系/networking 主导,无标准化 OA",
     pat="⚠️ 复核结果:PJT 官网只写美国与 EMEA 招聘区域,各大香港 tracker 均无亚洲 student req。所谓「9月开」来自官方 Asia 时间线表述,但从未见实际挂岗",
-    note="把它当作 networking 通道而不是网申通道更现实。")
+    note="8/24 复核:PJT 官方 Students 页原文「Applications for our Summer Analyst Program open in September of the year prior to the program and close in October」——9 月窗口就在下周起。但已被索引的 2027 Summer Analyst 全是美国岗(NY/SF/Boston/Chicago/Charlotte/Camberview/Park Hill),无 HK/Asia 条目。把它当作 networking 通道而不是网申通道更现实,同时 9 月每周刷一次 Workday 板。")
 add(firm="Moelis & Company", org="EB", role="Hong Kong Summer Analyst",
     func="IBD", typ="Summer", loc="香港", url="https://www.moelis.com/careers/explore-opportunities/", st="watch",
     ddl="", ddl_txt="官方称香港通常 5 月开", opened="",
@@ -327,7 +381,7 @@ add(firm="Rothschild & Co", org="EB", role="Global Advisory Summer Internship(�
     ddl="", ddl_txt="未公布", opened="",
     pay="未公开", dur="未公开", lang="未公开", visa="未公开", gpa="未公开", proc="未公开",
     pat="香港项目每年复现(2026=opp 899,2025=opp 328)但页面从不写开放日期与截止",
-    note="美国 2027 已挂,香港未挂(8/17 复核未变)。官方已开「Register Your Interest — Global Advisory Summer Analyst Programme 2027」登记页,可先在官网 opportunities 页登记,开放时收通知。")
+    note="⚠️ 8/24 复核有退步:官方 opportunities 页这次完整渲染出 44 个在挂岗位(不是 JS 挡住),其中 18 个 2027 岗全在伦敦/曼城/利兹/伯明翰/法兰克福/巴黎/苏黎世,**没有香港、没有任何亚太岗**,而且上周还在的「Register Your Interest 2027」登记条目现在也不见了。解读:登记期已关、香港岗待发,不是取消——但比往年慢,继续每周盯。")
 add(firm="BDA Partners", org="EB", role="M&A Analyst Intern(六个月制,1H / 2H 两批)",
     func="IBD", typ="Offcycle", loc="香港", url="https://www.bdapartners.com/careers/students-graduates/", st="watch",
     ddl="", ddl_txt="滚动 / 不定期", opened="",
@@ -389,7 +443,7 @@ add(firm="CITIC CLSA 中信里昂", org="CN", role="Internship Programme(8 周,6
     pay="未公开", dur="8 周(官方,中资里最短)", lang="posting 未特别写", visa="未提及",
     gpa="未设", proc="未公开",
     pat="项目每年复现(Jun–Aug,横跨 13 个国家),但申请窗口从不公开日期;2026 批截止 12月31日",
-    note="★ 官方明确面向 penultimate 本科生,前台条线含 Sales / Sales Trading / Research。历史上「一年期实习」经 HKU CEDARS 等校园渠道发布——校内渠道要一起刷。")
+    note="★ 官方明确面向 penultimate 本科生,前台条线含 Sales / Sales Trading / Research。历史上「一年期实习」经 HKU CEDARS 等校园渠道发布——校内渠道要一起刷。8/24 复核:Workday 板是 JS 渲染读不到列表,官网实习页仍只写「每年 6–8 月、八周」无年份无日期,搜索索引里最新仍是 2026 批——按未开处理,10–11 月是主窗口。")
 add(firm="华泰国际 Huatai", org="CN", role="Project Intern, IBD / Equity Derivatives Intern / Institutional Equity Sales Intern",
     func="IBD", typ="Offcycle", loc="香港", url="https://htsc.wd102.myworkdayjobs.com/Huatai_Careers", st="open",
     ddl="", ddl_txt="滚动", opened="",
@@ -409,7 +463,7 @@ add(firm="招银国际 CMBI", org="CN", role="Summer Internship Program(SIP,10 �
     visa="未写", gpa="★GPA ≥3.3",
     proc="未公开(站内能力测试,供应商未披露)",
     pat="2026 批:10月中投递–11月中截止,2月起发 offer",
-    note="⚠️ 资格很窄:官方写「待入学硕士生或在读硕士生」——本科生原则上不符,走上面的项目实习生通道。")
+    note="⚠️ 资格很窄:官方写「待入学硕士生或在读硕士生」——本科生原则上不符,走上面的项目实习生通道。8/24 复核:校园页时间轴仍停在上一届(宣讲 2025/10–11、网申 10月中–11月中),咨询邮件模板还写着「查詢-2026 SIP」,2027 批未启动。")
 add(firm="海通国际 Haitong Intl", org="CN", role="Summer Internship Program",
     func="IBD", typ="Summer", loc="香港", url="https://htisec.wd3.myworkdayjobs.com/en-US/hti_careers", st="soon",
     ddl="", ddl_txt="预计 2027年初", opened="",
@@ -466,7 +520,7 @@ add(firm="Millennium", org="BUY", role="2027 Internship Program(★8/3 已开放
     ddl="", ddl_txt="滚动审,无硬截止", opened="2026-08-03",
     pay="未公开", dur="未公开", lang="未写", visa="未写", gpa="未设",
     proc="因岗而异", pat="官网原文「roles will be filled on a rolling basis」——滚动补位,先到先得",
-    note="★★ 8/3 核验:如期开放,香港已挂 10 个 2027 岗,前台相关的有 Quantitative Researcher(REQ-30209)、Quantitative Developer(REQ-30359)、Applied AI Engineer(REQ-30169)、Execution Trading(REQ-30188)、Sector Specialist(REQ-30210)、Corporate Access Services(REQ-30182)。⚠️ 最多投 2 份;有媒体报道投资岗席位接近饱和,今天就投。")
+    note="★★ 8/24 核验:香港在挂数由 10 个增至 11 个,无关闭迹象。2027 批十个岗为 Data & Research Strategy、Quantitative Developer、Corporate Access Services、Applied AI Engineer、Trading Services、Sector Specialist、Quantitative Researcher、Market Risk、Operations & Middle Office、Execution Trading(REQ-30188),另有一个 2026 off-cycle(AI Engineering)。前台相关度最高的是 Sector Specialist、Execution Trading、Corporate Access Services、Quantitative Researcher。⚠️ 最多投 2 份;滚动补位,开了三周了,别再拖。")
 add(firm="Schonfeld", org="BUY", role="2027 Summer Internships — Express Your Interest(含香港)",
     func="BUY", typ="Summer", loc="香港/纽约/伦敦等", url="https://job-boards.greenhouse.io/schonfeld/jobs/7635430", st="open",
     ddl="", ddl_txt="登记池已开,具体岗位陆续放出", opened="2026-08(约)",
@@ -478,7 +532,7 @@ add(firm="Schroders 施罗德", org="BUY", role="Asia Internship Programme(香�
     ddl="", ddl_txt="官方:9 月开申", opened="",
     pay="未公开", dur="暑期(次年 6 月入职)", lang="未写", visa="未写", gpa="未设",
     proc="未公开", pat="官方口径:penultimate 年 9 月申请、次年 6 月入职",
-    note="★ 8/10 新增收录:老牌英资资管,官网明示亚洲实习面向 penultimate、9 月开申——和 BoS、PJT 同属「9 月档」,现在设提醒。")
+    note="★ 8/10 新增收录:老牌英资资管,官网明示亚洲实习面向 penultimate、9 月开申——和 BoS、PJT 同属「9 月档」,现在设提醒。8/24 复核:FAQ 页口径未变(「Applications open in September each year」,滚动招聘,评估中心 11 月–次年 2 月),但主页尚未挂出任何香港 2027 具体岗位。")
 add(firm="Jane Street", org="QUANT", role="Quantitative Researcher — Summer Internship",
     func="QUANT", typ="Summer", loc="香港", url="https://www.janestreet.com/join-jane-street/open-roles/", st="watch",
     ddl="", ddl_txt="⚠️ 已提前关闭", opened="",
@@ -518,14 +572,14 @@ add(firm="Blackstone", org="BUY", role="Summer Analyst / Off-cycle(香港岗按�
     pay="未公开", dur="Summer 约 10 周;off-cycle 六个月", lang="未写", visa="未写", gpa="未设",
     proc="无标准化 OA;技术面 + fit 都很重",
     pat="⚠️ 香港岗不走统一 APAC 窗口,而是按团队零散上线(如 2026 Credit/ICS Summer Analyst HK、2025 Business Finance off-cycle HK),需全年盯板",
-    note="部分 2027 岗 2026年1月就开了、可能已满。香港的 Business Finance 六个月 off-cycle(2027年1–6月)预计 8–10月挂出,8/10 复核仍未见;但同系列的 2027 Real Estate Finance Off-Cycle(1–6月,新加坡,req 44173)已开放——off-cycle 周期已启动,香港岗大概率临近,每周盯板。")
+    note="部分 2027 岗 2026年1月就开了、可能已满。★ 8/24 线索(未证实):第三方聚合站列出一个「2027 Transaction Finance Off-cycle Intern (Jan–Jun), Hong Kong」在挂——即历年的 Business Finance 六个月 off-cycle **可能改了名字**。Blackstone 的 Workday 是 JS 渲染、官方直链未被搜索索引到,本环境无法证实,**不给伪造链接**。自己去 Campus Careers 板用「Transaction Finance」搜一次;同系列 2027 Real Estate Finance Off-Cycle(新加坡,req 44173)确认已开,说明 off-cycle 周期确实启动了。")
 add(firm="Blackstone", org="BUY", role="2027 Real Estate Summer Analyst — Shanghai/Hong Kong",
     func="BUY", typ="Summer", loc="上海/香港", url="https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Summer-Analyst---Shanghai-Hong-Kong_40595", st="open",
     ddl="", ddl_txt="滚动(Blackstone 惯例关得早)", opened="2026-07(约)",
     pay="未公开", dur="约 10 周", lang="覆盖大中华区,实操需中英", visa="未写", gpa="未设",
     proc="无标准化 OA;技术面 + fit 都很重",
     pat="Blackstone 香港 2027 校招板 7 月起上新,此岗为首批",
-    note="★ 8/3 新发现:Blackstone 2027 香港校招板的第一个前台岗——地产投资条线(Blackstone 是全球最大另类资产管理者,RE 是其旗舰业务)。地点上海/香港双选。页面为 Workday JS 渲染,用浏览器打开。")
+    note="★ 8/3 新发现:Blackstone 2027 香港校招板的第一个前台岗——地产投资条线(Blackstone 是全球最大另类资产管理者,RE 是其旗舰业务)。地点上海/香港双选。页面为 Workday JS 渲染,用浏览器打开。⚠️ 8/24 复核:官方直链仍被索引但 JS 渲染读不到正文,第三方聚合器已不再列此岗——有可能已关,投前先自己点开确认。")
 add(firm="KKR", org="BUY", role="2027 Summer Analyst Program(含亚太)",
     func="BUY", typ="Summer", loc="含亚太", url="https://www.kkr.com/careers/student-careers/student-career-opportunities", st="open",
     ddl="", ddl_txt="滚动", opened="",
@@ -553,7 +607,7 @@ add(firm="Eclipse Trading", org="QUANT", role="Trading Intern(香港,年度批�
     ddl="", ddl_txt="预计 9–10月开下一批", opened="",
     pay="交易岗未公开(Levels.fyi 有 SWE 实习约 US$22/小时,非前台)", dur="未公开",
     lang="未写", visa="未写", gpa="未设", proc="未公开", pat="常年滚动,无公开窗口",
-    note="香港本土期权做市商。8/10 复核:Greenhouse 板上无任何 intern 岗,但 Graduate Trader | 2027 Intake 已挂出(8413137002,全职毕业生轨)——intern 批按规律 9–10 月,临近。")
+    note="香港本土期权做市商。8/24 复核:在挂清单里最新的实习仍是 2026 Summer Intake,没有 2027 Trading Intern;Graduate Trader / Graduate Python Software Developer 的「2027 Intake」已开但那是全职毕业生轨(且已索引到的是悉尼岗)。intern 批按规律 9–10 月,临近。")
 add(firm="明汯投资 Minghong", org="QUANT", role="2026 quant research / quant dev / AI 算法 实习",
     func="QUANT", typ="Offcycle", loc="上海/北京/香港", url="https://www.wondercv.com/xiaozhao/minghong-investment-2026-intern-shanghai-beijing-hk-9520-1d0067", st="open",
     ddl="", ddl_txt="滚动", opened="",
@@ -615,32 +669,35 @@ add(firm="J.P. Morgan Private Bank", org="BB", role="2027 Global Private Bank �
     proc="同上:HireVue 录播必做 → 面试", pat="同上",
     note="★ 投资顾问 / 投资方案研究轨,比 Advisor 轨更偏投研。与上面那个是两份独立申请。")
 add(firm="UBS Global Wealth Management", org="BB", role="2027 Off-Cycle Internship — GWM Solutions",
-    func="PB", typ="Offcycle", loc="香港", url="https://jobs.ubs.com", st="open",
-    ddl="", ddl_txt="滚动", opened="2026-07",
+    func="PB", typ="Offcycle", loc="香港", url="https://jobs.ubs.com", st="watch",
+    ddl="", ddl_txt="⚠️ 8/24 官方职位库查无此岗", opened="",
     pay="未公开", dur="通常 6 个月", lang="APAC off-cycle 要求倒数第二年在读、<2年工作经验", visa="未写", gpa="无 GPA 数字",
     proc="UBS 线上测评 → 录播视频面 → 终面", pat="2027 off-cycle 与 summer 同批 7 月上线",
     note="⚠️ 核查结论:UBS 香港本轮**没有 GWM 暑期岗**,私行学生招聘只走 off-cycle。网传的 GWM Summer(jobid 339032)是美国纽约/新泽西岗且已过期。另一个 GWM COO off-cycle 属中后台,不在本表口径内。")
-add(firm="Citi Private Bank", org="BB", role="Wealth – Private Bank Summer Analyst(2027 批待开)",
-    func="PB", typ="Summer", loc="香港", url="https://jobs.citi.com/search-jobs", st="soon",
-    ddl="", ddl_txt="预计 8–10 月(8/17 仍未开)", opened="",
-    pay="未公开", dur="约 10 周", lang="英文", visa="未写", gpa="未写",
+add(firm="Citi Private Bank", org="BB", role="Wealth – Private Bank, Summer Analyst, Hong Kong, 2027",
+    func="PB", typ="Summer", loc="香港", url="https://jobs.citi.com/job/hong-kong/wealth-private-bank-summer-analyst-hong-kong-2027/287/99664839120", st="open",
+    ddl="2026-10-30", ddl_txt="10/30 23:59(滚动审)", opened="2026-08-24",
+    pay="未公开", dur="★官方:10 周暑期项目,开头有集中培训",
+    lang="英文", visa="未写",
+    gpa="posting 未设 GPA;官方写「任何本科专业均可」「不要求丰富工作经验」",
     proc="Plum 测评 → 录播视频面 → 终面",
-    pat="2026 批香港私行暑期岗已核实存在(job 84985412704),是每年复现的固定编制;Citi 香港 2027 批 Markets 已开、Banking 与 Wealth 未开",
-    note="项目页:privatebank.citibank.com/careers/analyst-program。另有 Citigold 岗但那是大众富裕不是私行。")
-add(firm="Deutsche Bank Private Bank", org="BB", role="Summer Internship — Private Bank(2027 批待开)",
-    func="PB", typ="Summer", loc="香港", url="https://careers.db.com/students-graduates/Search-Programmes/", st="soon",
-    ddl="", ddl_txt="2027 批已启动,香港私行岗未见", opened="",
-    pay="未公开", dur="约 9–10 周", lang="英文(中文/粤语加分)", visa="★接受香港学生签", gpa="未写",
+    pat="2026 批香港私行暑期岗已核实存在(job 84985412704),是每年复现的固定编制;2027 批 Markets 7/10 开、Banking 8/10 开、Wealth 8/24 开——三批依次相隔约六周",
+    note="★★ 8/24 当天刚挂出(job ID 26988478,posting date 就是 8/24),搜索引擎还没索引到,是从 Citi 官方 Services 岗页面的 related jobs 里翻出来的。官方原文:penultimate year、毕业窗口 Dec 2027–June 2028。⚠️ Citi 亚太限每人最多申 3 个 summer 项目——现在香港有 IBD / Capital Markets / Markets S&T / Private Bank 四个前台岗在挂,必须做取舍。")
+add(firm="Deutsche Bank Private Bank", org="BB", role="2027 Summer Internship Programme — Private Bank",
+    func="PB", typ="Summer", loc="香港", url="https://db.recsolu.com/jobs/eGx9fBLq5cqdYbjz6rj-Pw?job_board_id=DT5zqeU-qZM-ltrVsIvR9Q", st="open",
+    ddl="2026-09-30", ddl_txt="9/30 23:45 HKT(滚动审)", opened="2026-08-17",
+    pay="未公开", dur="约 9–10 周", lang="英文(中文/粤语加分)",
+    visa="★接受香港学生签", gpa="未写",
     proc="DB 站内测评 → 官方明示的录播视频面 → 终面",
-    pat="2026 批含 Summer Internship – Private Bank 与 Graduate Programme – Private Bank 两个香港私行岗,现均已关闭",
-    note="★ 8/17 复核:DB 2027 批已开闸(香港 IBD 已挂、9/30 截止),且**新加坡 2027 Private Bank 暑期岗已挂出**——香港私行岗按 2026 批先例大概率跟上,未见挂出,本周起每周必刷 careers.db.com 与 hk.gradconnection.com/employers/deutsche-bank/jobs/。")
-add(firm="BNP Paribas Wealth Management", org="BB", role="APAC Graduate Programme — Wealth Management, Front Office Track",
-    func="PB", typ="Summer", loc="香港", url="https://www.bnpparibas.com.hk/en/careers/early-careers/", st="soon",
-    ddl="", ddl_txt="官方 FAQ:8 月起开申(原预计 Q4)", opened="",
-    pay="未公开", dur="两年制 graduate programme", lang="英文流利(中文/粤语加分)", visa="视国籍可能有签证限制",
-    gpa="★3.3/4.0 以上(analyst 条线)", proc="未公开",
-    pat="2026 批已关闭、香港页面 404;2027 批预计 Q4 上线",
-    note="★ 岗位名里直接写「Front Office Track」,是香港少数明确标注前台的财富管理毕业生轨。同门另有 6 个月 APAC Internship(2027年1–6月),penultimate 可投、可转正。")
+    pat="2026 批含 Summer Internship – Private Bank 与 Graduate Programme – Private Bank 两个香港私行岗;2027 批香港 IBCM 与 Private Bank 分两周先后上线",
+    note="★★ 8/24 核验:上周还只有新加坡有,现在香港私行岗已挂出(官方 Yello 职位板标 posted 1 week ago)。官方原文「Applications close on 30 September 2026, 11.45pm HKT」、滚动审;毕业窗口 2027年12月1日–2028年7月31日,相关全职经验 ≤12 个月。⚠️ 比 Citi 私行早整整一个月截止,先做这个。")
+add(firm="BNP Paribas Wealth Management", org="BB", role="2027 APAC Graduate Programme — Wealth Management, Investment Advisory",
+    func="PB", typ="Summer", loc="香港", url="https://group.bnpparibas/en/careers/job-offer/2027-apac-graduate-programme-wealth-management-investment-advisory-hong-kong", st="open",
+    ddl="", ddl_txt="页面未写截止,滚动收", opened="2026-08-17",
+    pay="未公开", dur="毕业生项目,2027年7月入职", lang="英文流利(中文/粤语加分)", visa="视国籍可能有签证限制",
+    gpa="★硬线 3.3/4.0", proc="未公开",
+    pat="2026 批叫「Wealth Management, Front Office Track」,2027 批拆成 Investment Advisory 与 Investment Services 两条",
+    note="⚠️ 8/24 重要更正:「Front Office Track」这个名字 2027 批没有复用,别再等这四个字——对应岗位现在叫 Investment Advisory(multi-asset Investment Counsellor / Advisor 方向),另有一条 Investment Services。⚠️ 这是 2027年7月入职的毕业生项目,面向 2027 届;2028 届 penultimate 要投的是上面那个 Wealth Management 六个月 Long Internship。同样受「只能投一份申请」限制。")
 add(firm="Barclays Private Bank", org="BB", role="Private Bank and Wealth Management Summer Internship 2027",
     func="PB", typ="Summer", loc="新加坡(香港无此岗)", url="https://search.jobs.barclays/job/singapore/private-bank-and-wealth-management-summer-internship-programme-2027-singapore/13015/97173677712", st="open",
     ddl="", ddl_txt="Until filled", opened="2026-07-01",
@@ -658,27 +715,27 @@ add(firm="Goldman Sachs", org="BB", role="2027 APEJ Private Wealth Management �
 
 add(firm="PWMA 私人财富管理公会", org="EB", role="★ Apprenticeship Programme(全行业私行学徒计划,~45 个名额)",
     func="PB", typ="Summer", loc="香港", url="https://www.pwma.org.hk/en/apprenticeship-programme/about-the-programme/", st="soon",
-    ddl="", ddl_txt="预计 11 月开(上轮 11/1–12/31)", opened="",
+    ddl="", ddl_txt="预计 11 月开(8/24 复核:官网仍是 2026 届)", opened="",
     pay="★不低于 HK$10,000/月(金管局部分资助)",
     dur="一个暑期(≥8 周)或 连续两个暑期(合计 ≥16 周)",
     lang="PWMA 未硬性规定;成员行实操上要英文 + 普通话/粤语",
     visa="限八大院校在读生", gpa="未设",
     proc="经 PWMA 申请中心投递 → Recruitment Day → 成员行发 offer",
     pat="2026 批:11月1日–12月31日投递(延期后),2月23–27日发 offer。2027 批预计同期",
-    note="★★★ 本表最高性价比的一枪:一份申请覆盖 16–18 家成员行,包括 GS、UBS、DB、渣打、DBS、Julius Baer、Pictet、Bank of Singapore、LGT、EFG、BNP、CA Indosuez、中银香港、交银香港、东亚。资格是**大一到大三、任何专业**,八大院校(港大/中大/科大/城大/理大/浸大/岭大/教大)。GS、UBS、渣打、中银香港这些**不公开挂私行学生岗**的机构,这是唯一的学生入口。东亚提供「连续两个暑期」格式,等于提前锁定两年。")
+    note="★★★ 本表最高性价比的一枪:一份申请覆盖 16–18 家成员行,包括 GS、UBS、DB、渣打、DBS、Julius Baer、Pictet、Bank of Singapore、LGT、EFG、BNP、CA Indosuez、中银香港、交银香港、东亚。资格是**大一到大三、任何专业**,八大院校(港大/中大/科大/城大/理大/浸大/岭大/教大)。GS、UBS、渣打、中银香港这些**不公开挂私行学生岗**的机构,这是唯一的学生入口。东亚提供「连续两个暑期」格式,等于提前锁定两年。8/24 复核:官网 About the Programme 页仍写 2026 届内容(offer 发放 2026/2/23–2/27)、下载区最新学徒手册仍是 2025 版,没有任何 2027 届公告——按 11 月开处理,10 月起每周刷。")
 add(firm="FOAHK 家族办公室协会", org="VC", role="Summer Internship Programme(一份申请覆盖 16+ 家办)",
     func="PB", typ="Summer", loc="香港 / 新加坡", url="https://www.foahk.org/internship", st="soon",
     ddl="", ddl_txt="预计 2027年3月开(上轮 3/17–4/10)", opened="",
     pay="未公开", dur="6月中–8月中(约 8–9 周)", lang="未公开(服务华人 UHNW 的台子实操要中英)",
     visa="全球开放,不限八大院校", gpa="未设",
     proc="统一网申", pat="2026 批 3月17日–4月10日投递,6月29日开营,1300+ 申请、120+ 录取",
-    note="★ 进入香港独立财富管理(EAM/MFO)生态的唯一系统性通道,覆盖 Leo Wealth、Carret Private、Raffles Family Office、VMS Group、Wisdom GFO、Topaz Capital 等。资格:大二以上、硕士、或毕业两年内。")
+    note="★ 进入香港独立财富管理(EAM/MFO)生态的唯一系统性通道,覆盖 Leo Wealth、Carret Private、Raffles Family Office、VMS Group、Wisdom GFO、Topaz Capital 等。资格:大二以上、硕士、或毕业两年内。8/24 复核:实习页仍显示「Apply Closed」,官网首页无 2027 公告——3 月才是窗口,现在不用管。")
 add(firm="FOAHK × 港大商学院", org="VC", role="Case Competition — 获奖者直通实习 fast-track",
     func="PB", typ="Offcycle", loc="香港", url="https://www.foahk.org/2026-case-competition", st="soon",
     ddl="", ddl_txt="预计 12 月报名(上轮截 12/15)", opened="",
     pay="奖金至 HK$5,000 + 推荐信", dur="12月–2月两轮,决赛一天",
     lang="英文", visa="全球开放", gpa="未设", proc="3–4 人组队(同地区)",
-    pat="2026 届:12月15日截止报名,2月6日决赛",
+    pat="2026 届:12月15日截止报名,2月6日决赛;8/24 复核页面仍显示「Application Closed」,2027 届未启动",
     note="★ 低成本高杠杆:冠军与一二等奖可获 10+ 家机构的暑期实习 fast-track 面试,点名机构含 国泰海通、ARK Wealth、Fullerton Private Bank、Topaz Capital、LEO Wealth、Carret Private、Wisdom GFO、Raffles Family Office。12月做这件事,是为 2027 暑期铺路。")
 
 add(firm="Hang Seng Bank 恒生", org="CN", role="Summer Seed Programme(10 周)",
@@ -687,7 +744,7 @@ add(firm="Hang Seng Bank 恒生", org="CN", role="Summer Seed Programme(10 周)"
     pay="未公开", dur="10 周(6月–8月底)", lang="中英文",
     visa="★需香港永久居民或有效工作签,比其六个月实习更严", gpa="要求 outstanding academics",
     proc="经 HSBC 招聘系统(apply.careers.hsbc.com)投递",
-    pat="2027 批预计 2026年9–12月上线",
+    pat="2027 批预计 2026年9–12月上线;8/24 复核:实习页文案仍停在「2025 年 6 月至 8 月底」,Apply now 按钮是无效的 javascript:void(0),旧 pipeline 页已 404",
     note="★ 官方**明确面向 penultimate 年级**,是恒生的暑期分析师等价物、也是其 graduate programme 的 feeder。Retail Banking and Wealth 条线内含私行配置。")
 add(firm="Hang Seng Bank 恒生", org="CN", role="Student Internship Programme — Retail Banking and Wealth(6 个月)",
     func="PB", typ="Offcycle", loc="香港", url="https://apply.careers.hsbc.com/", st="soon",
@@ -772,15 +829,15 @@ add(firm="Bank of Singapore (OCBC)", org="EB", role="Wealth Management Programme
     pay="未公开", dur="24 个月(轮岗 + IBF 认证的私人银行高级证书)",
     lang="英文 + 普通话/粤语加分", visa="未写", gpa="未设", proc="未公开",
     pat="官网原文:2027 批招聘将于 2026年9月启动;8/3 复核口径未变",
-    note="★ 时点明确、可直接设提醒(8/3 复核:官网维持 9 月启动;其六个月学期实习 1H2027 批也是 9 月启动、暑期 WEP2027 批 11 月启动)。往年曾明确在香港招人,香港席位需在挂出时确认。Bank of Singapore 亦为 PWMA 成员行。")
+    note="★★ 8/24 复核:官网明写「Applications are now closed」,并注明 2027 批招聘将于 **2026 年 9 月**(下个月)启动——这是全表唯一有官方明确时间承诺的待开岗位,现在就把提醒设到 9 月 1 日。其六个月学期实习 1H2027 批也是 9 月启动、暑期 WEP2027 批 11 月启动。往年曾明确在香港招人,香港席位需在挂出时确认。Bank of Singapore 亦为 PWMA 成员行。")
 add(firm="渣打银行 Standard Chartered", org="BB", role="Wealth and Retail Banking Graduate / Summer Internship",
     func="PB", typ="Summer", loc="香港", url="https://www.sc.com/en/global-careers/early-careers/local-programmes-for-students/hong-kong-student-opportunities/", st="soon",
-    ddl="", ddl_txt="官方口径 8 月中旬;8/17 仍未挂", opened="",
+    ddl="", ddl_txt="⚠️ CIB 已于 8/17 开,WRB 未跟", opened="",
     pay="未公开", dur="暑期实习 / 两年制 graduate", lang="英文 + 粤语/普通话加分",
     visa="未写", gpa="★官方不设 GPA,strengths-based",
     proc="★pymetrics 游戏化测评(官方确认)→ 单向录播视频面 → 终面",
     pat="历史数据显示香港截止在 12月31日,推断秋季开",
-    note="⚠️ 这是 Wealth & Retail(富裕客群),**不是纯私行**;渣打没有独立的私行学生项目。渣打是 PWMA 成员行,想进其私行走 PWMA。")
+    note="⚠️ 这是 Wealth & Retail(富裕客群),**不是纯私行**;渣打没有独立的私行学生项目。渣打是 PWMA 成员行,想进其私行走 PWMA。8/24 复核:渣打 2027 香港批 8/17 只上了 CIB 三岗,官方 sitemap 的 23 条 2027 岗位里没有 Wealth and Retail 条目,2026 版页面已显示「not available at this time」——WRB 是分批上线,继续盯。")
 
 DATA = R
 
@@ -788,16 +845,16 @@ DATA = R
 # 顶部提醒板块 —— lv: urgent(红) / warn(黄) / info(蓝)
 # 每周更新时把过期的删掉、把当前最紧的放最上面
 # ============================================================
-VERSION = "v1.6"
-UPDATED = "2026-08-17"
+VERSION = "v1.7"
+UPDATED = "2026-08-24"
 
 NOTICES = [
- {"lv":"urgent","title":"本周新开的两枪",
-  "body":"① <b>Deutsche Bank 香港 IBD 2027 已开闸</b>——9/30 23:45 HKT 截止、滚动审,毕业窗口 2027年12月–2028年7月,明确接受香港学生签;② <b>Jefferies 香港 2027 IB Summer Analyst 已在官方 LinkedIn 挂出</b>(上周还查无此岗),GPA 3.4 硬线、未写截止——Jefferies 历年关得随性,别等。"},
- {"lv":"urgent","title":"9 月底是第一个大限周",
-  "body":"<b>MS R1 8/16 已过,现在走的 R2 9/27 是终轮</b>(IBD/IED/FID/GCM 四口,含六个月 Industrial Placement);随后 <b>9/30 一天内到期:JPM 全线、BofA 三岗、Nomura 三岗、DB IBD</b>,全部滚动审——拖到 9 月底就是抢剩下的。接受去新加坡的注意 <b>Temasek 投资组 9/11 截止</b>,只剩三周多。"},
- {"lv":"warn","title":"渣打、BNP 的「8 月」正在倒数",
-  "body":"<b>渣打官方仍写「8 月中旬上线」但 8/17 实测香港岗仍未挂</b>——官方时间点已到,任何一天都可能开,每天刷 jobs.standardchartered.com;<b>BNP 官方 FAQ 的「8 月开申」同样未兑现</b>,只剩两周窗口。<b>DB 新加坡已挂 2027 私行暑期岗,香港私行岗大概率临近</b>;Citi Wealth、GS IBD Classic、恒生 Summer Seed 仍未开;<b>Jane Street S&amp;T 岗仍开、随时会关</b>。"},
+ {"lv":"urgent","title":"本周开了八个岗,是上线以来最大的一周",
+  "body":"<b>① GS 香港 IBD Classic 终于挂出</b>(roles/170772,10/4 截止)——等了整个夏天的那个岗;<b>② 渣打兑现「8 月中旬」</b>,香港 CIB 三岗 8/17 上线,⚠️ 但硬性要求<b>香港永久工作权</b>,且六个月内只能投一份;<b>③ BNP 香港 2027 批 8/17 批量上线</b>,含三个前台六个月 Long Internship(2027年1–6月),⚠️ 全集团<b>只能投一份申请</b>;<b>④ 私行连开两枪:DB 香港 Private Bank(9/30)与 Citi 香港 Private Bank(10/30,8/24 当天刚挂)</b>。"},
+ {"lv":"urgent","title":"9 月底那一周仍是第一个大限",
+  "body":"最近的是 <b>Temasek 投资组 9/11</b>,只剩两周半。随后 <b>MS 全线 R2 9/27(终轮)</b>——注意本周补收的第五个 MS 香港岗 <b>IED Quantitative Finance</b>(与普通 IED 是两份独立申请);再往后 <b>9/30 一天内到期:JPM 全线、BofA 四岗(本周补收 Global Corporate Banking)、Nomura、DB 的 IBCM 与 Private Bank</b>。全部滚动审,拖到月底就是抢别人剩下的。"},
+ {"lv":"warn","title":"三条更正,可能直接改变你的申请清单",
+  "body":"<b>① Barclays 的 Electronic Trading 与 Quantitative Analytics 两个 Associate 岗限 postgraduate</b>,2028 届本科不符合资格——此前本表读成「Associate 只是项目名称」是错的,已更正;<b>② BNP 的「Wealth Management Front Office Track」2027 批不再用这个名字</b>,对应岗位现叫 Investment Advisory,而且那是 2027年7月入职的毕业生项目(面向 2027 届),2028 届该投的是六个月 Long Internship;<b>③ UBS 这条线基本关完</b>——暑期三岗 8/6 已截止,香港与新加坡的 off-cycle jobid 实测均已过期,GWM Solutions 只剩第三方聚合站还挂着,已降为待观察。下一个有官方明确时点的是 <b>Bank of Singapore:官网写明 2026 年 9 月启动 2027 批</b>。"},
 ]
 
 # ============================================================
@@ -805,6 +862,21 @@ NOTICES = [
 # k: new(新开放) / close(已关闭) / ddl(截止变动) / add(新增收录) / info(信息)
 # ============================================================
 CHANGELOG = [
+ {"date":"2026-08-24","ver":"v1.7","note":"上线以来变化最大的一周:GS IBD Classic、渣打、BNP、DB 私行、Citi 私行同期开闸,另有三条资格更正。",
+  "items":[
+    {"k":"new","t":"<b>★★ Goldman Sachs 香港 IBD Classic 2027 已挂出</b>——roles/170772,页面标题「2027 | APEJ | Hong Kong | Investment Banking, Classic | Summer Analyst」,Apply 按钮实测有效,统一 <b>10/4</b> 截止。这是 7月1日第一批之后晚了约七周才补挂的岗,等它的人现在可以投了。⚠️ 与 Capital Solutions Group(170773)是两份独立申请,各占 GS「每 cycle 最多 4 个 business×location」额度里的一个。"},
+    {"k":"new","t":"<b>★★ 渣打香港 2027 已于 8/17 上线,但只上了 CIB 三岗</b>:<b>Global Banking Intern</b>(job 59126)、<b>Coverage Banking Intern</b>(job 59110,内含 M&A 组——想做 M&A 走这个入口)、Transaction Services Intern(job 59114,交易银行,不入主表)。10 周、2027年6月起,评估中心 <b>2026年10月</b> 就开始。⚠️ 两个硬约束:官方原文要求「permanent legal right to work in Hong Kong」(<b>学生签不符合</b>,非本地生慎投),以及<b>六个月内只能投一份申请</b>——三个岗只能三选一。<b>Financial Markets 与 Wealth &amp; Retail 未同批上线</b>,官方 sitemap 里 23 条 2027 岗位中没有这两条,是分批不是取消。"},
+    {"k":"new","t":"<b>★★ BNP Paribas 香港 2027 批 8/17 批量上线</b>(上周查不到是因为当天稍晚才上,职位页 last update 正是 8/17)。前台相关的六个月 Long Internship(2027年1–6月)三个:<b>Global Banking APAC</b>(含 M&A/ECM/DCM/Coverage)、<b>Global Markets</b>、<b>Wealth Management</b>。页面均<b>未写截止日</b>,滚动收,尽快投。⚠️ 官方原文「Candidates with more than one application will not be processed」——<b>全集团只让投一份</b>,跨条线跨地点都算,投多份直接不处理。"},
+    {"k":"new","t":"<b>★★ 私行本周连开两枪。① Deutsche Bank 香港 Private Bank 2027</b>——上周还只有新加坡,现在香港岗已挂(官方 Yello 板),<b>9/30 23:45 HKT</b> 截止、滚动审,毕业窗口 2027/12/1–2028/7/31,接受香港学生签。<b>② Citi 香港 Wealth – Private Bank Summer Analyst 2027</b>——job ID 26988478,<b>posting date 就是 8/24 当天</b>,搜索引擎还没索引到,<b>10/30 23:59</b> 截止,10 周、任何本科专业、毕业窗口 Dec 2027–June 2028。⚠️ Citi 亚太限每人最多申 3 个 summer 项目,香港现在有 IBD / Capital Markets / Markets S&amp;T / Private Bank 四个前台岗在挂,必须取舍。"},
+    {"k":"add","t":"补收三个此前漏掉的岗:<b>Morgan Stanley 香港 IED Quantitative Finance</b>(opp 21270,第五个 MS 香港岗,R2 9/27,官方原文本科 penultimate 明确可投,与普通 IED 21266 是两份独立申请);<b>BofA 香港 Global Corporate Banking Summer Analyst</b>(14384,9/30,BofA 香港的第四个前台岗);渣打 <b>Coverage Banking</b>(见上)。"},
+    {"k":"info","t":"<b>⚠️ 更正一:Barclays 香港的 Electronic Trading Associate 与 Quantitative Analytics Associate 两个岗限 postgraduate</b>——posting 原文的毕业窗口是 2027年12月–2028年6月且明写 postgraduate,<b>2028 届本科 penultimate 不符合资格</b>。本表此前写「这里的 Associate 是项目名称不是层级」是误读,已更正。本科生做量化方向,银行侧应投主 S&amp;T 项目(Sales, Trading and Structuring)。"},
+    {"k":"info","t":"<b>⚠️ 更正二:BNP 的「Wealth Management Front Office Track」这个名字 2027 批没有复用</b>,别再等这几个字。对应岗位现在拆成 <b>Investment Advisory</b>(最接近原 front office track)与 Investment Services 两条,GPA <b>3.3/4.0</b> 硬线。而且这是 <b>2027年7月入职的毕业生项目</b>,面向 2027 届;2028 届 penultimate 该投的是上面那个 Wealth Management 六个月 Long Internship。"},
+    {"k":"close","t":"<b>⚠️ 更正三:UBS 这条线基本关完了。</b>暑期三岗 8/6 硬截止已过;香港 Global Research off-cycle(jobid 348319)与新加坡 Global Markets off-cycle(348322)实测均返回「posting has expired」;<b>GWM Solutions 香港 off-cycle 在 jobs.ubs.com 官方职位库搜不到</b>,只剩 LinkedIn / ExpatJobBoard 等第三方聚合站还挂着页面——三个 UBS off-cycle 岗全部降为待观察。"},
+    {"k":"close","t":"<b>Nomura 香港 International Wealth Management 降为待观察。</b>IB 与 Global Markets 两个香港岗都能在多所大学 career center 的官方转载里找到 2027 版原文(<b>9/30 11:55pm HKT</b>),唯独 IWM 香港只搜得到 2025/2026 版本,没有 2027 版;官方职位板 nomuracampus.tal.net 全站被人机验证拦住,五种 URL 形态都读不到。按本表纪律降级,不等于下线——想投的自己过一次 CAPTCHA 确认。"},
+    {"k":"info","t":"<b>Jefferies 香港本周无法复核。</b>LinkedIn 被 robots.txt 禁抓、Jefferies 的 tal.net 板全站 CAPTCHA,两条路都读不到正文。间接信号:tal.net 上 Jefferies 2027 IB SA 的美国岗都已被索引,<b>唯独香港 2027 没有任何 tal.net URL 被索引</b>。状态暂维持已开(上周有实证),但请自己开浏览器确认。"},
+    {"k":"info","t":"<b>Rothschild 香港这周不进反退</b>:官方 opportunities 页这次完整渲染出 44 个在挂岗位(不是 JS 挡住),18 个 2027 岗全在欧洲,而且<b>上周还在的 2027 登记页条目现在也不见了</b>。<b>PJT</b> 官方 Students 页明写「9 月开、10 月关」,下周起进入窗口,但已索引的 2027 Summer Analyst 全是美国岗。<b>Blackstone 香港六个月 off-cycle 可能改名叫「Transaction Finance」</b>(第三方聚合站列为在挂,Workday JS 渲染无法证实,不给伪造链接——自己去 Campus Careers 搜「Transaction Finance」)。"},
+    {"k":"info","t":"截止日复核全部未变:<b>GS 10/4、MS R2 9/27、JPM 9/30、BofA 9/30、HSBC 10/30、Citi Banking &amp; Markets 10/30、Temasek 9/11</b>。<b>Jane Street 香港 S&amp;T 岗仍开着</b>(Greenhouse 申请表可用,无公示截止,随时会关)。<b>Millennium 香港在挂数由 10 增至 11</b>,无关闭迹象,最多投 2 份。其余未开:<b>Bank of Singapore</b>(官网「Applications are now closed」+ 明示 2026年9月启动 2027 批,全表唯一有官方时点承诺的)、PWMA(官网仍是 2026 届,预计 11 月)、CMBI SIP(时间轴仍停在上一届)、CITIC CLSA、恒生 Summer Seed(页面文案仍是 2025)、FOAHK(Apply Closed)、Schroders(FAQ 口径 9 月)、Eclipse(最新实习仍是 2026 批)、Wells Fargo(旧岗已 404,预计 12 月中)。"},
+  ]},
  {"date":"2026-08-17","ver":"v1.6","note":"每周核查:DB 香港 IBD 开闸、Jefferies 香港现身,MS 切入 R2。",
   "items":[
     {"k":"new","t":"<b>Deutsche Bank 香港 IBD 2027 已开</b>——官方原文「Applications close on 30 September 2026, 11.45pm HKT」、滚动审;毕业窗口 2027年12月1日–2028年7月31日,相关全职经验 ≤12 个月,明确接受香港学生签。申请走 db.recsolu 链接(卡片内直达)。同批新加坡已挂 Private Bank、固收等多岗,<b>香港私行岗未见但大概率临近</b>,盯 careers.db.com。"},
